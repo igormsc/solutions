@@ -16,7 +16,6 @@ class Solution3076 {
 
         val res = Array<String>(arr.size) {""}
         arr.indices.forEach { i ->
-           // res[i] = ""
             val r = Node()
             (0..<arr[i].length).forEach { j ->
                 var node = root
